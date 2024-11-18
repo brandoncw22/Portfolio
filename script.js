@@ -40,7 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
         post.images.forEach(imageSrc => {
             const postImage = document.createElement('img');
             const imageTitle = document.createElement('h3');
-            imageTitle.textContent = imageSrc.split('/').pop(); // Extract the file name from the imageSrc
+            imageTitle.textContent = imageSrc.split('/').pop();
+            
+            imageTitle.classList.add('image-title');
+            
             postImage.src = imageSrc;
             postImage.alt = post.title;
             postBody.appendChild(imageTitle);
