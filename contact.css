@@ -1,0 +1,89 @@
+.main-div {
+    position: sticky;
+    margin-bottom: 10px;
+}
+.top-heading {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+.school-heading {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.navigation {
+    background-color: lightgray;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    transition: transform 0.3s, color 0.3s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+    color: lightblue;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.contact-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.email-input,
+.subject-input,
+.message-input {
+    width: 100%;
+    max-width: 500px; /* Set a max-width for the input elements */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.message-input {
+    height: 100px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #9df9a1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.submit-button:hover {
+    background-color: #22bb2a;
+    transform: scale(1.1);
+}
