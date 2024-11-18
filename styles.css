@@ -1,0 +1,82 @@
+.main-div {
+    position: sticky;
+    margin-bottom: 10px;
+}
+.top-heading {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+.school-heading {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.navigation {
+    background-color: lightgray;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    transition: transform 0.3s, color 0.3s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+    color: lightblue;
+}
+.portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-post {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.portfolio-post:hover {
+    transform: scale(1.05);
+}
+
+.post-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-title {
+    font-size: 18px;
+    margin: 16px;
+}
+
+.post-body {
+    padding: 16px;
+    display: none; /* Initially hide the post body */
+}
+
+.post-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
+}
